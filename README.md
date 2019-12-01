@@ -9,6 +9,7 @@ The challenge was to make a page that was simillar to a facebook comments page, 
 
 ### Example page
 
+![Page](index.png)
 
 **<p align="center"> More infos about the challenge can be found in <a href="https://github.com/Rocketseat/bootcamp-gostack-desafio-04/edit/master/README.md">Rocketseat repo</a> </p>**
 
