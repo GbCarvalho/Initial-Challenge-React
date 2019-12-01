@@ -1,5 +1,4 @@
 import React from "react";
-
 import logo from "../assets/Union.png";
 
 function Header() {
@@ -8,7 +7,7 @@ function Header() {
       <nav>
         <img src={logo} />
         <div>
-          <span>Meu Perfil</span>
+          <span>Meu perfil</span>
           <i className="material-icons">account_circle</i>
         </div>
       </nav>
