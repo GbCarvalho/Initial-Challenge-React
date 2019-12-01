@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import profile from "../assets/IMG_20190909_124245_216.jpeg";
+import Post from "./Post";
 
 class PostList extends Component {
   state = {
@@ -93,30 +93,13 @@ class PostList extends Component {
   };
 
   render() {
+    const { posts } = this.state;
+
     return (
       <div className="postlist">
-        <div className="post">
-          <div className="post-header">
-            <img src={profile} alt="profile-pic" className="avatar" />
-            <div className="details">
-              <h3>Gabriel</h3>
-              <h3 className="date">data</h3>
-            </div>
-          </div>
-
-          <h2 className="post-content">Qualquer coisa</h2>
-          <div className="divider" />
-
-          <div className="post-comments">
-            <div className="comment">
-              <img src={profile} className="avatar" />
-
-              <p>
-                <span>Nome</span>Oi
-              </p>
-            </div>
-          </div>
-        </div>
+        {posts.map(post => (
+          <Post key={post.id} {...post} />
+        ))}
       </div>
     );
   }
