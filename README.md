@@ -5,13 +5,20 @@
 
 ## About the Challenge
 
-<p> More infos about the challenge can be found in <a href="https://github.com/Rocketseat/bootcamp-gostack-desafio-04/edit/master/README.md">their repo</a> </p>
+The challenge was to make a page that was simillar to a facebook comments page, it's a simple page, without interactions or anything like the following image.
+
+### Example page
+
+
+**<p align="center"> More infos about the challenge can be found in <a href="https://github.com/Rocketseat/bootcamp-gostack-desafio-04/edit/master/README.md">Rocketseat repo</a> </p>**
 
 ## Executing the code
 
 ### Requirements
 
 <p> To execute the code you must have <a href="https://yarnpkg.com/"> yarn </a> installed in your computer </p>
+
+### Final result
 
 If you want to see a better result you will have to modify the posts details at the file /src/content/PostList.js at the declared state. Example:
 
@@ -111,12 +118,11 @@ If you want to see a better result you will have to modify the posts details at 
             content:
               "Também estou fazendo o Bootcamp e estou adorando! Estou no terceiro módulo sobre Node e já tenho minha API dos desafios construída!"
           },
-    ]
+        ]
+      }
+     ]
    }
- 
 ```
-
-### Executing the code
 
 To execute the code you can simply clone the repo and execute in a terminal:
  
@@ -130,3 +136,7 @@ To execute the code you can simply clone the repo and execute in a terminal:
  yarn | yarn build
  ```
 and then opening the file /public/index.html (The yarn build will make an more compact file at /public
+
+## Expected Results
+
+The expected result is this equivalent to the Example Page
