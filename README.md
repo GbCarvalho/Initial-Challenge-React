@@ -25,13 +25,14 @@ To execute the code you can simply clone the repo and execute in a terminal:
  ```terminal
  yarn | yarn dev
  ```
- and then accessing http://localhost:8080/ you can see the result
+ and then accessing http://localhost:8080/ you can see the result.
+ 
  **<p align="center">OR</p>**
  
  ```terminal
  yarn | yarn build
  ```
-and then opening the file /public/index.html (The yarn build will make an more compact file at /public
+and then opening the file /public/index.html (The yarn build will make an more compact file at /public).
 
 ### Final adjustments
 
