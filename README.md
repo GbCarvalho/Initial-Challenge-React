@@ -1,7 +1,7 @@
 <h1 align="center">
     <img alt="GoStack" src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/bootcamp-header.png" width="200px" />
 </h1>
-<h3 align="center"> Initial Challenge at the GoStack course from Rocketseat </h3>
+<h3 align="center"> Initial React Challenge at the GoStack course from Rocketseat </h3>
 
 ## About the Challenge
 
