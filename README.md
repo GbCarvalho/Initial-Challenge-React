@@ -6,6 +6,7 @@
 ## About the Challenge
 
 The challenge was to make a page that was simillar to a facebook comments page, it's a simple page, without interactions or anything like the following image.
+This is an bootcamp GoStack challenge.
 
 ### Example page
 
@@ -13,6 +14,10 @@ The challenge was to make a page that was simillar to a facebook comments page, 
 
 
 **<p align="center"> More infos about the challenge can be found in <a href="https://github.com/Rocketseat/bootcamp-gostack-desafio-04/edit/master/README.md">Rocketseat repo</a> </p>**
+
+## Technologies utilized
+Utilized the VS Code as IDE, further I will add some prettier, eslint and editor config for code padronziation and better visualization in any IDE.
+Beyond that, the frameworks and language utilized was React JS, Javascript and webpack.
 
 ## Requirements
 
